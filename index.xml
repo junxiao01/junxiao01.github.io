@@ -34,9 +34,9 @@
     
     <item>
       <title>Online Video Super-Resolution with Convolutional Kernel Bypass Grafts</title>
-      <link>https://junxiao01.github.io/publication/genloco_hb/</link>
-      <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://junxiao01.github.io/publication/genloco_hb/</guid>
+      <link>https://junxiao01.github.io/publication/online_vsr/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/online_vsr/</guid>
       <description></description>
     </item>
     
@@ -62,28 +62,52 @@
     </item>
     
     <item>
-      <title>An Optimal Motion Planning Framework for Quadruped Jumping</title>
-      <link>https://junxiao01.github.io/publication/offline_jumping/</link>
-      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://junxiao01.github.io/publication/offline_jumping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Building information modeling‐based 3D reconstruction and coverage planning enabled automatic painting of interior walls using a novel painting robot in construction</title>
-      <link>https://junxiao01.github.io/publication/zhouyang_jfr/</link>
-      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://junxiao01.github.io/publication/zhouyang_jfr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Quadruped jumping with optimal control</title>
       <link>https://junxiao01.github.io/research/offline_quadruped_jumping/</link>
       <pubDate>Sun, 27 Feb 2022 10:00:00 +0000</pubDate>
       <guid>https://junxiao01.github.io/research/offline_quadruped_jumping/</guid>
       <description>&lt;p&gt;The aim of this research theme is to try to empower quadrupedal robot or bipedal robot jumping using existing gradient-based, reinforcement learning, meta-heuristic-based algorithms, etc. Currently, meta-heuristic-based online and offline jumping is implemented.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Self-feature Learning: An Efficient Deep Lightweight Network for Image Super-resolution</title>
+      <link>https://junxiao01.github.io/publication/mm_sr/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/mm_sr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progressive and Selective Fusion Network for High Dynamic Range Imaging</title>
+      <link>https://junxiao01.github.io/publication/mm_hdr/</link>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/mm_hdr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Balanced distortion and perception in single-image super-resolution based on optimal transport in wavelet domain</title>
+      <link>https://junxiao01.github.io/publication/balance_opt/</link>
+      <pubDate>Fri, 13 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/balance_opt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature redundancy mining: Deep light-weight image super-resolution model</title>
+      <link>https://junxiao01.github.io/publication/icassp_sr/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/icassp_sr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian sparse hierarchical model for image denoising</title>
+      <link>https://junxiao01.github.io/publication/spic_denoise/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/spic_denoise/</guid>
+      <description></description>
     </item>
     
     <item>
