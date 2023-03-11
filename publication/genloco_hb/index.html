@@ -272,7 +272,7 @@
 
   
 
-<meta name="description" content="A framework for training generalized locomotion (GenLoco) controllers for quadrupedal robots." />
+<meta name="description" content="An lightweight RNN models for online video super-resolution." />
 
 
 
@@ -310,8 +310,8 @@
 <meta property="twitter:image" content="https://junxiao01.github.io/publication/genloco_hb/featured.png" />
 <meta property="og:site_name" content="Jun Xiao" />
 <meta property="og:url" content="https://junxiao01.github.io/publication/genloco_hb/" />
-<meta property="og:title" content="GenLoco: Generalized Locomotion Controllers for Quadrupedal Robots | Jun Xiao" />
-<meta property="og:description" content="A framework for training generalized locomotion (GenLoco) controllers for quadrupedal robots." /><meta property="og:image" content="https://junxiao01.github.io/publication/genloco_hb/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Online Video Super-Resolution with Convolutional Kernel Bypass Grafts | Jun Xiao" />
+<meta property="og:description" content="An lightweight RNN models for online video super-resolution." /><meta property="og:image" content="https://junxiao01.github.io/publication/genloco_hb/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -346,7 +346,7 @@
     "@type": "WebPage",
     "@id": "https://junxiao01.github.io/publication/genloco_hb/"
   },
-  "headline": "GenLoco: Generalized Locomotion Controllers for Quadrupedal Robots",
+  "headline": "Online Video Super-Resolution with Convolutional Kernel Bypass Grafts",
   
   "image": [
     "https://junxiao01.github.io/publication/genloco_hb/featured.png"
@@ -357,7 +357,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "Gilbert Feng"
+    "name": "Jun Xiao"
   },
   
   "publisher": {
@@ -368,7 +368,7 @@
       "url": "https://junxiao01.github.io/media/icon_hud3f906394e33c42b903908d2e33c2bfb_42965_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "A framework for training generalized locomotion (GenLoco) controllers for quadrupedal robots."
+  "description": "An lightweight RNN models for online video super-resolution."
 }
 </script>
 
@@ -390,7 +390,7 @@
 
 
   
-  <title>GenLoco: Generalized Locomotion Controllers for Quadrupedal Robots | Jun Xiao</title>
+  <title>Online Video Super-Resolution with Convolutional Kernel Bypass Grafts | Jun Xiao</title>
 
   
   
@@ -793,7 +793,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>GenLoco: Generalized Locomotion Controllers for Quadrupedal Robots</h1>
+  <h1>Online Video Super-Resolution with Convolutional Kernel Bypass Grafts</h1>
 
   
 
@@ -810,17 +810,14 @@
     
 
   <span >
-      Gilbert Feng</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Hongbo Zhang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
-      Zhongyu Li</span>, <span >
-      Xue Bin Peng</span>, <span >
-      Bhuvan Basireddy</span>, <span class="author-highlighted">
-      Jun Xiao</span>, <span >
-      zhitao Song</span>, <span >
-      Lizhi Yang</span>, <span >
-      Yunhui Liu</span>, <span >
-      Koushil Sreenath</span>, <span >
-      Sergey Levine</span>
+      Jun Xiao</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Xinyang Jiang</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Ningxin Zheng</span>, <span >
+      Huan Yang</span>, <span >
+      Yifan Yang</span>, <span >
+      Yuqing Yang</span>, <span >
+      Dongsheng Li</span>, <span >
+      Kin-Man Lam</span>
   </div>
   
   
@@ -871,7 +868,7 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2209.05309" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/TMM.2023.3243615" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -883,13 +880,6 @@
 </a>
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://github.com/HybridRobotics/GenLoco" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -898,15 +888,6 @@
 
 
 
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/5QUs32MjNu4" target="_blank" rel="noopener">
-  Video
-</a>
 
 
 
@@ -931,7 +912,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Recent years have seen a surge in commercially-available and affordable quadrupedal robots, with many of these platforms being actively used in research and industry. As the availability of legged robots grows, so does the need for controllers that enable these robots to perform useful skills. However, most learning-based frameworks for controller development focus on training robot-specific controllers, a process that needs to be repeated for every new robot. In this work, we introduce a framework for training generalized locomotion (GenLoco) controllers for quadrupedal robots. Our framework synthesizes general-purpose locomotion controllers that can be deployed on a large variety of quadrupedal robots with similar morphologies. We present a simple but effective morphology randomization method that procedurally generates a diverse set of simulated robots for training. We show that by training a controller on this large set of simulated robots, our models acquire more general control strategies that can be directly transferred to novel simulated and real-world robots with diverse morphologies, which were not observed during training.</p>
+    <p class="pub-abstract">Deep learning-based models have achieved remarkable performance in video super-resolution (VSR) in recent years, but most of these models are less applicable to online video applications. These methods solely consider the distortion quality and ignore crucial requirements for online applications, e.g., low latency and low model complexity. In this paper, we focus on online video transmission in which VSR algorithms are required to generate high-resolution video sequences frame by frame in real time. To address such challenges, we propose an extremely low-latency VSR algorithm based on a novel kernel knowledge transfer method, named the convolutional kernel bypass graft (CKBG). First, we design a lightweight network structure that does not require future frames as inputs and saves extra time for caching these frames. Then, our proposed CKBG method enhances this lightweight base model by bypassing the original network with “kernel grafts”, which are extra convolutional kernels containing the prior knowledge of the external pretrained image SR models. During the testing phase, we further accelerate the grafted multibranch network by converting it into a simple single-path structure. The experimental results show that our proposed method can process online video sequences up to 110 FPS with very low model complexity and competitive SR performance.</p>
     
 
     
@@ -959,7 +940,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>CoRL 2022</em></div>
+          <div class="col-12 col-md-9">In <em>IEEE Transaction on Multimedia 2023</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -994,7 +975,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;text=GenLoco%3A&#43;Generalized&#43;Locomotion&#43;Controllers&#43;for&#43;Quadrupedal&#43;Robots" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;text=Online&#43;Video&#43;Super-Resolution&#43;with&#43;Convolutional&#43;Kernel&#43;Bypass&#43;Grafts" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1011,7 +992,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;t=GenLoco%3A&#43;Generalized&#43;Locomotion&#43;Controllers&#43;for&#43;Quadrupedal&#43;Robots" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;t=Online&#43;Video&#43;Super-Resolution&#43;with&#43;Convolutional&#43;Kernel&#43;Bypass&#43;Grafts" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1030,7 +1011,7 @@
         
       
       <li>
-        <a href="mailto:?subject=GenLoco%3A%20Generalized%20Locomotion%20Controllers%20for%20Quadrupedal%20Robots&amp;body=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Online%20Video%20Super-Resolution%20with%20Convolutional%20Kernel%20Bypass%20Grafts&amp;body=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1047,7 +1028,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;title=GenLoco%3A&#43;Generalized&#43;Locomotion&#43;Controllers&#43;for&#43;Quadrupedal&#43;Robots" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;title=Online&#43;Video&#43;Super-Resolution&#43;with&#43;Convolutional&#43;Kernel&#43;Bypass&#43;Grafts" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1064,7 +1045,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=GenLoco%3A&#43;Generalized&#43;Locomotion&#43;Controllers&#43;for&#43;Quadrupedal&#43;Robots%20https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Online&#43;Video&#43;Super-Resolution&#43;with&#43;Convolutional&#43;Kernel&#43;Bypass&#43;Grafts%20https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1081,7 +1062,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;title=GenLoco%3A&#43;Generalized&#43;Locomotion&#43;Controllers&#43;for&#43;Quadrupedal&#43;Robots" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fjunxiao01.github.io%2Fpublication%2Fgenloco_hb%2F&amp;title=Online&#43;Video&#43;Super-Resolution&#43;with&#43;Convolutional&#43;Kernel&#43;Bypass&#43;Grafts" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1116,131 +1097,6 @@
     
 
 
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  <div class="media author-card content-widget-hr">
-    
-      
-      <a href="https://junxiao01.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu3951b4348d756b9920eeaf47e4c415f6_1017574_270x270_fill_q75_lanczos_center.jpg" alt="Jun Xiao"></a>
-    
-
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://junxiao01.github.io/">Jun Xiao</a></h5>
-      <h6 class="card-subtitle">Postdoct Fellow</h6>
-      <p class="card-text">My research interests include quadruped robot, bipedal robot and Reinforcement Learning.</p>
-      <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-    <li>
-      <a href="mailto:jun.xiao@connect.polyu.hk" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.com/citations?user=HN5in_IAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-        <i class="fas fa-graduation-cap"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/junxiao01" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.zhihu.com/people/nan-man-boy" target="_blank" rel="noopener">
-        <i class="fab fa-zhihu"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://www.linkedin.com/in/gwansiu/" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-</ul>
-
-    </div>
-  </div>
 
 
   
