@@ -68,5 +68,29 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Deep multi-task learning for facial expression recognition and synthesis based on selective feature sharing</title>
+      <link>https://junxiao01.github.io/publication/dfs_icpr/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/dfs_icpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Progressive Motion Representation Distillation With Two-Branch Networks for Egocentric Activity Recognition</title>
+      <link>https://junxiao01.github.io/publication/spl/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/spl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Progressive Convolutional Neural Network for Blind Super-Resolution With Multiple Degradations</title>
+      <link>https://junxiao01.github.io/publication/dpcp/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/dpcp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
