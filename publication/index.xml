@@ -5,12 +5,28 @@
     <link>https://junxiao01.github.io/publication/</link>
       <atom:link href="https://junxiao01.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://junxiao01.github.io/media/icon_hud3f906394e33c42b903908d2e33c2bfb_42965_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://junxiao01.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Improving Robustness of Single Image Super-Resolution Models with Monte Carlo Method</title>
+      <link>https://junxiao01.github.io/publication/icip_2023/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/icip_2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boosting Object Detectors via Strong-Classification Weak-Localization Pretraining in Remote Sensing Imagery</title>
+      <link>https://junxiao01.github.io/publication/remote_sensing/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://junxiao01.github.io/publication/remote_sensing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Online Video Super-Resolution with Convolutional Kernel Bypass Grafts</title>
